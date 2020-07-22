@@ -1,0 +1,74 @@
+h1 {
+
+}
+
+p {
+
+}
+
+form {
+    width: 100%;
+    max-width: 24rem;
+    margin: 1.5rem;
+}
+  
+label {
+    color: #4a5568;
+    padding-right: 1rem;
+    margin-bottom: .25rem;
+    font-weight: 700;
+    display: block;
+}
+  
+input, textarea {
+    width: 100%;
+    color: #4a5568;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    line-height: 1.25;
+    border-width: 1px;
+    border-radius: .25rem;
+    border-color: #a0aec0;
+}
+  
+input:focus, textarea:focus {
+    border-color: #9f7aea;
+    background-color: #fff;
+    outline: 0;
+}
+  
+input[name="name"] {
+    margin-bottom: 1.5em;
+}
+  
+input[name="email"] {
+    margin-bottom: 1.5em;
+}
+
+textarea {
+    margin-bottom: 1.5em;
+}
+  
+button {
+    color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-weight: 700;
+    border-radius: .25rem;
+    background-color: #6b46c1;
+    transition: background 0.2s;
+}
+  
+button:hover {
+    background-color: #9f7aea;
+    transition: background 0.2s;
+}
+  
+label[for='name'] {
+  
+}
